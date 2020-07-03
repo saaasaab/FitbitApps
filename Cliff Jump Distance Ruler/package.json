@@ -1,0 +1,30 @@
+{
+  "fitbit": {
+    "appUUID": "b2b78487-fa10-46a7-b393-129597d81df5",
+    "appType": "app",
+    "appDisplayName": "Cliff_Jump",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#00bcd4",
+    "requestedPermissions": [
+      "access_activity",
+      "access_user_profile",
+      "access_heart_rate",
+      "access_exercise"
+    ],
+    "buildTargets": [
+      "meson",
+      "mira",
+      "gemini",
+      "higgs"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Cliff_Jump"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  }
+}

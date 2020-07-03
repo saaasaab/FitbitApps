@@ -1,0 +1,20 @@
+<svg>
+   <use id="start_jump_btn" href="#push-button" x="2%" y="35%-10" width="96%" height="30%"
+    fill="fb-red" font-family="System-Regular" font-size="40">
+    <set href="#text" attributeName="text-length" to="128" />
+    <set href="#text" attributeName="text-buffer" to="JUMP!" />
+    <set href="#text" attributeName="fill" to ="white" />
+    <set href="#text" attributeName="y" to="12" />
+  </use>
+
+ <!--
+  <text id="gyro-label" class="sensor-label">gyroscope</text>
+  <text id="gyro-data" class="sensor-data">{ ... }</text>
+  <text id="hrm-label" class="sensor-label">heart rate</text>
+  <text id="hrm-data" class="sensor-data">{ ... }</text>
+  <text id="orientation-label" class="sensor-label">orientation</text>
+  <text id="orientation-data" class="sensor-data">{ ... }</text>
+  <text id="accel-label" class="sensor-label">accelerometer</text>
+  <text id="accel-data" class="sensor-data">{ ... }</text>
+-->
+</svg>
