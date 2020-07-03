@@ -1,0 +1,14 @@
+
+<svg>
+  <rect id="slider"  x="0%" y="0%" width="20%" height="100%" opacity = "0"
+        fill="blue" pointer-events="visible" />
+  
+  <line id="line" x1="10%" y1="10" x2="10%" y2="100%-10" fill="red" stroke-width="2" />
+  <circle id="slider_circle" cx="10%" cy="10%" r="10" fill="red"/>  
+  
+  
+  <text id="demotext" x="50%" y="50%+15">Hello World!</text> 
+  <rect id="myButton"  x="50%" y="50%+45" width="50%" height="30%"
+        fill="red" pointer-events="visible" />
+
+</svg>

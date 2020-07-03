@@ -1,0 +1,25 @@
+{
+  "fitbit": {
+    "appUUID": "13da8b47-21f0-4624-a52b-c40404ac4faa",
+    "appType": "app",
+    "appDisplayName": "Spritz",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#8bc34a",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Spritz"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  }
+}
