@@ -1,0 +1,35 @@
+<svg>
+  <use id="container" href="#panoramaview">
+    
+    <use id="item1" href="#panoramaview-item">
+      <rect width="100%" height="100%" fill="black" />
+      <text id = "myClock">0</text>
+      <image  href="icons/btn_combo_timer_p.png" x="10%" y="8" />
+
+    </use>
+   
+    <use id="item2" href="#panoramaview-item">
+      <rect width="100%" height="100%" fill="white" />
+      <rect x="2%" y="35%-10" width="96%" height="30%" fill="black" />
+      <rect x="3%" y="36%-10" width="94%" height="28%" fill="white" />
+       <text fill="black">10:00</text>
+      <image href="icons/btn_combo_cog_p.png" x="10%" y="8"/>
+    </use>
+
+    <!-- Have enough pagination dots for your slides (extras are hidden) -->
+    <use id="pagination-dots" href="#pagination-widget" y="8">
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use href="#pagination-highlight-dot" />
+    </use>
+  </use>
+  <image id="startStopwatch" href="icons/btn_combo_play_press_p.png" x="85%" y="85%" pointer-events="visible"/>
+  <image id="reset" href="icons/btn_combo_reset_p.png" x="85%" y="8" display = "none" pointer-events="visible"/>
+  
+      
+  
+  
+</svg>

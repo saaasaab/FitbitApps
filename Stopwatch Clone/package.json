@@ -1,0 +1,25 @@
+{
+  "fitbit": {
+    "appUUID": "fc867260-0962-49b3-9c2c-d924b371d62e",
+    "appType": "app",
+    "appDisplayName": "three_screens",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#8bc34a",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {
+      "en": {
+        "name": "three_screens"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  }
+}
