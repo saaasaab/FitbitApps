@@ -1,0 +1,25 @@
+.background {
+  viewport-fill: fb-cyan;
+}
+
+.line {
+  fill: grey;
+  stroke-width: 5;
+}
+
+image{
+  width:30;
+  height: 30;
+  fill: black;
+  text-anchor: center;
+}
+
+#txt {
+  fill: black;
+  font-size: 62;
+  font-weight: bold;
+  text-anchor: middle;
+  text-length: 99;
+  
+  
+}
