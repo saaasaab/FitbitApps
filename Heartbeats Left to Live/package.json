@@ -1,0 +1,29 @@
+{
+  "fitbit": {
+    "appUUID": "0c93d74d-43ea-4ac5-8ee8-3bf25b7cc26f",
+    "appType": "app",
+    "appDisplayName": "HeartbeatVisualizer",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity",
+      "access_user_profile"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {
+      "en": {
+        "name": "HeartbeatVisualizer"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  }
+}

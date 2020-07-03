@@ -1,0 +1,32 @@
+<svg viewport-fill="lightblue">
+  <defs>
+    <symbol id="demo">
+      <g id="demogroup">
+        <image id="heart" href="assets/heart.png" fill = "red" x="100" y="100" width="100" height="100" />
+        
+        <animate id="animate" attributeName="opacity" begin="enable"
+            from="1" to="0" dur="1" final="restore" />
+      </g>
+    </symbol>
+  </defs>
+  
+  <use id="demoinstance" href="#demo" width="100%" height="100%" />
+  
+  <text id = "beats" x="50%" y="75%+15"
+        font-family="System-Regular" fill="black"
+        font-size="30" font-weight="bold"
+        text-anchor="middle"
+        text-length="300">Beats Left</text>
+   <text x="50%" y="75%+45"
+        font-family="System-Regular" fill="black"
+        font-size="24" font-weight="bold"
+        text-anchor="middle"
+        text-length="300">Beats Left</text>
+</svg>
+
+<!--
+  <image id="heart" href="assets/heart.png" fill = "red" x="50%" y="50%" width="100" height="100" pointer-events="visible">
+    <animate attributeName="opacity" begin="click" from="1" to="0" dur="1" final="restore" />
+    </image>
+
+-->
