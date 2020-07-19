@@ -1,0 +1,30 @@
+.background {
+  viewport-fill: fb-cyan;
+}
+
+.tile-list-item {
+  height: 100;
+}
+
+.tile-list-item text {
+  font-size: 72;
+  font-family: System-Regular;
+  x: 50%;
+  text-anchor: middle;
+  fill: "white";
+}
+
+
+.tile-list-item-hour text {
+  font-size: 72;
+  font-family: System-Regular;
+  x: 50%;
+  text-anchor: middle;
+  fill: "white";
+}
+
+#tumbler { y: 50%-55; }
+.item { height: 90; }
+.item text { font-size: 80; fill: white; x: 5;  text-length: 75;}
+.item-add { height: 90; }
+.item-add text { font-size: 80; fill: white; x: 35;  text-length: 75;}

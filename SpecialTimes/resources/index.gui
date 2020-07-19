@@ -1,0 +1,54 @@
+<svg>
+  <svg id="screenHome">
+    <text id="next_text" x="10%" y="15%" font-size="32" fill="teal"> 12:34</text>
+    <text id="next_text" x="50%" y="55%" text-anchor="middle" font-size="72" fill="teal"> 01:17</text>
+    <image id="add" pointer-events="visible" x="10" y="250" width="40" height="40" fill="teal" href="assets/add.png" />
+    <image id="view" pointer-events="visible" x="250" y="250" width="40" height="40" fill="teal" href="assets/view.png" />
+  </svg>
+  
+  
+  
+  <svg id="screenView" display="none">
+    <use id="tumblerView" href="#tumblerview">
+      <use id="item0" href="#tumbler-item" class="item">
+        <text id="content">01:11</text>
+      </use>
+      <use id="item1" href="#tumbler-item" class="item">
+        <text id="content">09:11</text>
+      </use>
+      <use id="item2" href="#tumbler-item" class="item">
+        <text id="content">03:07</text>
+      </use>
+      <use id="item3" href="#tumbler-item" class="item">
+        <text id="content">12:34</text>
+      </use>
+      <use id="item4" href="#tumbler-item" class="item">
+        <text id="content">3:14</text>
+      </use>
+    </use>
+    <image id="home" pointer-events="visible" x="10" y="250" width="40" height="40" fill="teal" href="assets/home.png" />
+  </svg>
+  
+  <svg id="screenAdd" display="none" viewport-fill="fb-cyan">
+    <use id="tumbler" href="#tumblerview">
+      <use id="item0" href="#tumbler-item" class="item-add">
+        <text id="content">01</text>
+      </use>
+      <use id="item1" href="#tumbler-item" class="item-add">
+        <text id="content">02</text>
+      </use>
+      <use id="item2" href="#tumbler-item" class="item-add">
+        <text id="content">03</text>
+      </use>
+      <use id="item3" href="#tumbler-item" class="item-add">
+        <text id="content">04</text>
+      </use>
+      <use id="item4" href="#tumbler-item" class="item-add">
+        <text id="content">05</text>
+      </use>
+      
+    </use>
+    <text x="50%" y="56%" font-size="80" fill="white"> :</text>
+    
+  </svg>
+</svg>
