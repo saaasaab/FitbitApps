@@ -1,0 +1,25 @@
+{
+  "fitbit": {
+    "appUUID": "79d7c05b-25f4-446a-b0af-d5991b336f35",
+    "appType": "app",
+    "appDisplayName": "DaysTill",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {
+      "en": {
+        "name": "DaysTill"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  }
+}

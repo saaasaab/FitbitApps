@@ -1,0 +1,152 @@
+<svg viewport-fill="fb-cyan">
+  <use id="tumblerMonth" href="#tumblerview"  x="5">
+    <use id="mon0" href="#tumbler-item" class="item">
+      <text id="content">Jan</text>
+    </use>
+    <use id="mon1" href="#tumbler-item" class="item">
+      <text id="content">Feb</text>
+    </use>
+    <use id="mon2" href="#tumbler-item" class="item">
+      <text id="content">Mar</text>
+    </use>
+    <use id="mon3" href="#tumbler-item" class="item">
+      <text id="content">Apr</text>
+    </use>
+    <use id="mon4" href="#tumbler-item" class="item">
+      <text id="content">May</text>
+    </use>
+    <use id="mon5" href="#tumbler-item" class="item">
+      <text id="content">Jun</text>
+    </use>
+    <use id="mon6" href="#tumbler-item" class="item">
+      <text id="content">Jul</text>
+    </use>
+    <use id="mon7" href="#tumbler-item" class="item">
+      <text id="content">Aug</text>
+    </use>
+    <use id="mon8" href="#tumbler-item" class="item">
+      <text id="content">Sep</text>
+    </use>
+    <use id="mon9" href="#tumbler-item" class="item">
+      <text id="content">Oct</text>
+    </use>
+    <use id="mon10" href="#tumbler-item" class="item">
+      <text id="content">Nov</text>
+    </use>
+    <use id="mon11" href="#tumbler-item" class="item">
+      <text id="content">Dec</text>
+    </use>
+  </use>
+  
+  <use id="tumblerDay" href="#tumblerview"  x="190">
+    <use id="item0" href="#tumbler-item" class="item">
+      <text id="content">01</text>
+    </use>
+    <use id="item1" href="#tumbler-item" class="item">
+      <text id="content">02</text>
+    </use>
+    <use id="item2" href="#tumbler-item" class="item">
+      <text id="content">03</text>
+    </use>
+    <use id="item3" href="#tumbler-item" class="item">
+      <text id="content">04</text>
+    </use>
+    <use id="item4" href="#tumbler-item" class="item">
+      <text id="content">05</text>
+    </use>
+    <use id="item5" href="#tumbler-item" class="item">
+      <text id="content">06</text>
+    </use>
+    <use id="item6" href="#tumbler-item" class="item">
+      <text id="content">07</text>
+    </use>
+    <use id="item7" href="#tumbler-item" class="item">
+      <text id="content">08</text>
+    </use>
+    <use id="item8" href="#tumbler-item" class="item">
+      <text id="content">09</text>
+    </use>
+    <use id="item9" href="#tumbler-item" class="item">
+      <text id="content">10</text>
+    </use>
+    <use id="item10" href="#tumbler-item" class="item">
+      <text id="content">11</text>
+    </use>
+    <use id="item11" href="#tumbler-item" class="item">
+      <text id="content">12</text>
+    </use>
+    <use id="item12" href="#tumbler-item" class="item">
+      <text id="content">13</text>
+    </use>
+    <use id="item13" href="#tumbler-item" class="item">
+      <text id="content">14</text>
+    </use>
+    <use id="item14" href="#tumbler-item" class="item">
+      <text id="content">15</text>
+    </use>
+    <use id="item15" href="#tumbler-item" class="item">
+      <text id="content">16</text>
+    </use>
+    <use id="item16" href="#tumbler-item" class="item">
+      <text id="content">17</text>
+    </use>
+    <use id="item17" href="#tumbler-item" class="item">
+      <text id="content">18</text>
+    </use>
+    <use id="item18" href="#tumbler-item" class="item">
+      <text id="content">19</text>
+    </use>
+    <use id="item19" href="#tumbler-item" class="item">
+      <text id="content">20</text>
+    </use>
+    <use id="item20" href="#tumbler-item" class="item">
+      <text id="content">21</text>
+    </use>
+    <use id="item21" href="#tumbler-item" class="item">
+      <text id="content">22</text>
+    </use>
+    <use id="item22" href="#tumbler-item" class="item">
+      <text id="content">23</text>
+    </use>
+    <use id="item23" href="#tumbler-item" class="item">
+      <text id="content">24</text>
+    </use>
+    <use id="item24" href="#tumbler-item" class="item">
+      <text id="content">25</text>
+    </use>
+    <use id="item25" href="#tumbler-item" class="item">
+      <text id="content">26</text>
+    </use>
+    <use id="item26" href="#tumbler-item" class="item">
+      <text id="content">27</text>
+    </use>
+    <use id="item27" href="#tumbler-item" class="item">
+      <text id="content">28</text>
+    </use>
+    <use id="item28" href="#tumbler-item" class="item">
+      <text id="content">29</text>
+    </use>
+    <use id="item29" href="#tumbler-item" class="item">
+      <text id="content">30</text>
+    </use>
+    <use id="item30" href="#tumbler-item" class="item">
+      <text id="content">31</text>
+    </use>
+  </use>
+  <rect id="btn_days" x="50%-20" y="10" width="40" 
+        height="280" fill="#f55414" pointer-events="visible"/>
+  
+  <rect id="days_bg" x="0" y="0" width="100%" height="100%"
+         fill="fb-cyan" display="none"/>
+  <text id="days_txt" x="50%" y="50%+5"
+        font-family="System-Regular" fill="black"
+        font-size="90" font-weight="bold"
+        x="50%"
+        text-anchor="middle" display="none">Demo Text</text>
+  <text id="days_label"x="50%" y="50%+50"
+        font-family="System-Regular" fill="#222222"
+        font-size="35" font-weight="bold"
+        x="50%"
+        text-anchor="middle" display="none">Days</text>
+  
+</svg>
