@@ -1,0 +1,163 @@
+<svg class="background">
+  
+  <text id="txt" display = "none" text-length ="300" fill="#51BFFD">0</text>
+  <image id="breathButton" x="50" y="50" width="200" height="200" href="breath.png" pointer-events="visible"/>
+  <rect id="actualButton" x="0"   y="0" width="100%" height="100%" fill="none"  pointer-events="visible" />
+  
+  <rect id="left" x="0"   y="10" width="10" height="290" fill="#51BFFD" display = "none"/>
+  <rect id="bottom" x="10" y="290" width="290" height="10" fill="#51BFFD" display = "none"/>
+  <rect id="right" x="290" y="0" width="10" height="290" fill="#51BFFD" display = "none"/>
+  <rect id="top" x="0" y="0" width="290" height="10" fill="#51BFFD" display = "none"/>
+  
+  <image id="graph" x="0" y="0" width="80" height="80" href="graph.png" pointer-events="visible"/>
+
+  
+  <rect id="graphScreen" class="background" x="0" y="0" width="100%" height="100%" display="none"/>
+
+  <line id="1" class="line" />
+  <line id="2" class="line" />
+  <line id="3" class="line" />
+  <line id="4" class="line" />
+  <line id="5" class="line" />
+  <line id="6" class="line" />
+  <line id="7" class="line" />
+  <line id="8" class="line" />
+  <line id="9" class="line" />
+  <line id="10" class="line" />
+  <line id="11" class="line" />
+  <line id="12" class="line" />
+  <line id="13" class="line" />
+  <line id="14" class="line" />
+  <line id="15" class="line" />
+  <line id="16" class="line" />
+  <line id="17" class="line" />
+  <line id="18" class="line" />
+  <line id="19" class="line" />
+  <line id="20" class="line" />
+  <line id="21" class="line" />
+  <line id="22" class="line" />
+  <line id="23" class="line" />
+  <line id="24" class="line" />
+  <line id="25" class="line" />
+  <line id="26" class="line" />
+  <line id="27" class="line" />
+  <line id="28" class="line" />
+  <line id="29" class="line" />
+  <line id="30" class="line" />
+  <line id="31" class="line" />
+  <line id="32" class="line" />
+  <line id="33" class="line" />
+  <line id="34" class="line" />
+  <line id="35" class="line" />
+  <line id="36" class="line" />
+  <line id="37" class="line" />
+  <line id="38" class="line" />
+  <line id="39" class="line" />
+  <line id="40" class="line" />
+  <line id="41" class="line" />
+  <line id="42" class="line" />
+  <line id="43" class="line" />
+  <line id="44" class="line" />
+  <line id="45" class="line" />
+  <line id="46" class="line" />
+  <line id="47" class="line" />
+  <line id="48" class="line" />
+  <line id="49" class="line" />
+  <line id="50" class="line" />
+  <line id="51" class="line" />
+  <line id="52" class="line" />
+  <line id="53" class="line" />
+  <line id="54" class="line" />
+  <line id="55" class="line" />
+  <line id="56" class="line" />
+  <line id="57" class="line" />
+  <line id="58" class="line" />
+  <line id="59" class="line" />
+  <line id="60" class="line" />
+  <line id="61" class="line" />
+  <line id="62" class="line" />
+  <line id="63" class="line" />
+  <line id="64" class="line" />
+  <line id="65" class="line" />
+  <line id="66" class="line" />
+  <line id="67" class="line" />
+  <line id="68" class="line" />
+  <line id="69" class="line" />
+  <line id="70" class="line" />
+  <line id="71" class="line" />
+  <line id="72" class="line" />
+  <line id="73" class="line" />
+  <line id="74" class="line" />
+  <line id="75" class="line" />
+  <line id="76" class="line" />
+  <line id="77" class="line" />
+  <line id="78" class="line" />
+  <line id="79" class="line" />
+  <line id="80" class="line" />
+  <line id="81" class="line" />
+  <line id="82" class="line" />
+  <line id="83" class="line" />
+  <line id="84" class="line" />
+  <line id="85" class="line" />
+  <line id="86" class="line" />
+  <line id="87" class="line" />
+  <line id="88" class="line" />
+  <line id="89" class="line" />
+  <line id="90" class="line" />
+  <line id="91" class="line" />
+  <line id="92" class="line" />
+  <line id="93" class="line" />
+  <line id="94" class="line" />
+  <line id="95" class="line" />
+  <line id="96" class="line" />
+  <line id="97" class="line" />
+  <line id="98" class="line" />
+  <line id="99" class="line" />
+  <line id="100" class="line" />
+  <line id="101" class="line" />
+  <line id="102" class="line" />
+  <line id="103" class="line" />
+  <line id="104" class="line" />
+  <line id="105" class="line" />
+  <line id="106" class="line" />
+  <line id="107" class="line" />
+  <line id="108" class="line" />
+  <line id="109" class="line" />
+  <line id="110" class="line" />
+  <line id="111" class="line" />
+  <line id="112" class="line" />
+  <line id="113" class="line" />
+  <line id="114" class="line" />
+  <line id="115" class="line" />
+  <line id="116" class="line" />
+  <line id="117" class="line" />
+  <line id="118" class="line" />
+  <line id="119" class="line" />
+  <line id="120" class="line" />
+  <line id="121" class="line" />
+  <line id="122" class="line" />
+  <line id="123" class="line" />
+  <line id="124" class="line" />
+  <line id="125" class="line" />
+  <line id="126" class="line" />
+  <line id="127" class="line" />
+  <line id="128" class="line" />
+  <line id="129" class="line" />
+  <line id="130" class="line" />
+  <line id="131" class="line" />
+  <line id="132" class="line" />
+  <line id="133" class="line" />
+  <line id="134" class="line" />
+  <line id="135" class="line" />
+  <line id="136" class="line" />
+  <line id="137" class="line" />
+  <line id="138" class="line" />
+  <line id="139" class="line" />
+  <line id="140" class="line" />
+  
+  
+  <text id="topTime" x="280" y="20" display = "none" fill="white" font-size="20" text-length ="300">0</text>
+  <text id="bottomTime" x="280" y="290"  display = "none" fill="white" font-size="20" text-length ="300">0</text>
+  <text id="txt" display = "none" text-length ="300">0</text>
+  <image id="home" x="0" y="0" width="80" height="80" href="home.png" display = "none" pointer-events="visible"/>
+</svg>
