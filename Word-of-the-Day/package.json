@@ -1,0 +1,25 @@
+{
+  "fitbit": {
+    "appUUID": "d2815a82-6ad9-4c26-91af-8f186769d7b3",
+    "appType": "clockface",
+    "appDisplayName": "Word of the Day",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Word of the Day"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  }
+}

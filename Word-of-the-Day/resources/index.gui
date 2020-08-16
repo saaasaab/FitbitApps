@@ -1,0 +1,17 @@
+<svg class="background">
+
+  <text class="text" id="time"font-size="100" x="50%"y="175" opacity="1"></text>    
+  <text class="text" id="dayLabel" opacity="1" x="10%"y="30" >SFDS</text>
+  <text class="text" id="dateLabel" opacity="1" x="50%"y="30">SFDS</text>
+  <text class="text" id="batteryLabel" opacity="1" x="85%"y="30">SFDS</text>
+  
+  
+  <text class="text" id="word" font-size="42" x="50%"y="275" pointer-events="visible">word</text>
+  <text class="text" id="grammar" x="10" y="130" text-anchor="start" opacity="0" display="none">grammar</text>
+  <textarea class="text"id="definition" text-length="175" text-anchor="start"x="10" y="140" width="100%-10" fill="white" opacity="0" font-size="22" display="none">Definition</textarea>
+ 
+  <text class="text" id="sentence" opacity="0">sentence</text>
+  <rect id="screenButton" x="0" y="0" width="100%" height="100%" fill="black" opacity="0" display="inline" pointer-events="visible"/>
+  <rect id="hider" x="0" y="0" width="100%" height="100%" fill="black" opacity="0" display="none"/>
+  
+</svg>
